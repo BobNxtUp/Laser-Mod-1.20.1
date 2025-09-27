@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[40,)" 
+loaderVersion="[47,)" 
 license="All Rights Reserved unless otherwise explicitly stated"
 
 [[mods]]
@@ -13,12 +13,13 @@ description="A Mod that adds working lasers and laser related items to minecraft
 [[dependencies.lasermod]]
     modId="forge"
     mandatory=true 
-    versionRange="[40,)"
+    versionRange="[47,)"  # Forge 47.x = MC 1.20.1
     ordering="NONE"
     side="BOTH"
+
 [[dependencies.lasermod]]
     modId="minecraft"
     mandatory=true
-	versionRange="[1.19,1.19.3]"
+    versionRange="[1.20.1,1.20.2)" # works on 1.20.1 but not 1.20.2+
     ordering="NONE"
     side="BOTH"
